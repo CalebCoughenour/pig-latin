@@ -15,7 +15,7 @@ function filterPuncuation(word) {
 function vowelCounter(text) {
   return text.split("").includes(function(vowel) {
     return "aeiou".includes(vowel);
-  });
+  }).join("");
 }
 
 // UI LOGIC
